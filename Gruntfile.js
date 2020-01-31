@@ -5,7 +5,7 @@ module.exports = function (grunt) {
 	var oDate = new Date();
 	var sBuildDate = oDate.toLocaleDateString();
 	var sBuildTime = oDate.toLocaleTimeString();
-	var aPrepend = ["Easysquare User Analytics Tool", "Promos Consult GmbH / Easysquare, Tobias Koops", "Version: " + sVersion, "Built on: " +
+	var aPrepend = ["TEST", "Version: " + sVersion, "Built on: " +
 		sBuildDate + " " + sBuildTime
 	];
 
@@ -50,7 +50,6 @@ module.exports = function (grunt) {
 
 	grunt.registerTask("default", [
 		"clean",
-		"lint",
 		"build",
 		"add_comment:dist",
 		"replace:dist"
