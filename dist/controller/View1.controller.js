@@ -1,6 +1,6 @@
 // TEST
 // Version: 0.01
-// Built on: 2020-1-31 15:13:26
+// Built on: 2020-2-21 1:40:43 PM
 sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function (Controller) {
@@ -8,7 +8,8 @@ sap.ui.define([
 
 	return Controller.extend("sample.UI5_Sample.controller.View1", {
 		onInit: function () {
-
+			//test
+			//feature
 		}
 	});
 });
